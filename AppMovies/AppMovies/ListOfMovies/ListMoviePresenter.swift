@@ -5,8 +5,6 @@
 //  Created by Derian Aguilar on 30/08/23.
 //
 
-import Foundation
-
 protocol ListMoviesUI: AnyObject {
     func update(movies: [MovieViewModel])
 }
@@ -37,5 +35,10 @@ class ListMoviePresenter {
     func showMovieDeil(index: Int) {
         let movieId = movieEntityList[index].id
         listMovieRouter.showMovieDetail(movieId: movieId)
+    }
+    
+    func clearData() {
+        movieViewModels = []
+        ui?.update(movies: movieViewModels)
     }
 }

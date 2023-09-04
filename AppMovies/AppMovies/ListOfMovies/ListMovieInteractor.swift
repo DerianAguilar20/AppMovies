@@ -5,8 +5,6 @@
 //  Created by Derian Aguilar on 30/08/23.
 //
 
-import Foundation
-
 class ListMovieInteractor {
     let movieResponse: MovieResponseEntity = MovieResponseEntity(movies: MoviesList)
     

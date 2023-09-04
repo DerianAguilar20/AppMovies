@@ -5,8 +5,6 @@
 //  Created by Derian Aguilar on 31/08/23.
 //
 
-import Foundation
-
 protocol MovieDetailUI: AnyObject {
     func update(detailViewModel: MovieDetailEntity)
 }
