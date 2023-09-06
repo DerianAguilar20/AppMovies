@@ -109,8 +109,8 @@ class ViewController: UIViewController {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5){
             self.activityIndicator.isHidden = true
-            self.movieTable.isHidden = false
             self.activityIndicator.stopAnimating()
+            self.movieTable.isHidden = false
             self.controller.showMovies()
         }
     }
@@ -145,6 +145,6 @@ extension ViewController: UITableViewDataSource {
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        controller.showMovieDetailView(viewControllerReference: self, movieId: indexPath.row)
+        controller.showMovieDetailView(viewControllerReference: self, index: indexPath.row)
     }
 }

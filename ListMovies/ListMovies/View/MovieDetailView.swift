@@ -97,7 +97,7 @@ class MovieDetailView: UIViewController {
         }else {
             subTitle.font = UIFont.systemFont(ofSize: 26, weight: .bold)
             nameMovie.font = UIFont.systemFont(ofSize: 23, weight: .bold)
-            overview.font = UIFont.systemFont(ofSize: 23, weight: .regular, width: .condensed)
+            overview.font = UIFont.systemFont(ofSize: 20, weight: .regular, width: .condensed)
             
         }
     }

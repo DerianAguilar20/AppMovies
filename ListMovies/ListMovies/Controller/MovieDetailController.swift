@@ -11,8 +11,8 @@ protocol showMovieDetailUI: AnyObject {
 
 class MovieDetailController {
     weak var showDetail: showMovieDetailUI?
-    private let moveId: String
     let service = MoviesService()
+    private let moveId: String
     
     init(movieId id: String) {
         self.moveId = id
