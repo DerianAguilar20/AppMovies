@@ -25,7 +25,7 @@ class MovieController {
     func showMovieDetailView(viewControllerReference: UIViewController, index: Int) {
         let movieID = movies[index].id
         let controller = MovieDetailController(movieId: movieID)
-        let view = MovieDetailView(controller: controller)
+        let view = DetailMovieViewController(controller: controller)
         viewControllerReference.present(view, animated: true)
     }
     
