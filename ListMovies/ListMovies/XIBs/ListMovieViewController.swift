@@ -42,7 +42,6 @@ class ListMovieViewController: UIViewController {
             self.tableView.isHidden = false
             self.controller.showMovies()
         }
-        
     }
 }
 

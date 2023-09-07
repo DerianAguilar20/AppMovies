@@ -9,9 +9,9 @@ import UIKit
 
 class DetailMovieViewController: UIViewController {
 
-    
     @IBOutlet weak var nameMovie: UILabel!
     @IBOutlet weak var overview: UILabel!
+    @IBOutlet weak var subtitle: UILabel!
     @IBOutlet weak var imageMovie: UIImageView!
     
     private let controller: MovieDetailController
@@ -32,7 +32,6 @@ class DetailMovieViewController: UIViewController {
         
         controller.showMovieDetail()
     }
-
 }
 
 extension DetailMovieViewController: showMovieDetailUI {
