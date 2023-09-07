@@ -49,7 +49,7 @@
                     <rect key="frame" x="0.0" y="111" width="393" height="741"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
-                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="7Kf-LB-ndj">
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="7Kf-LB-ndj">
                     <rect key="frame" x="176.66666666666666" y="461" width="40" height="40"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="40" id="dh6-9E-mns"/>

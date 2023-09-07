@@ -78,7 +78,7 @@
 		8628CECC2AA7C922006F9061 /* ListMovies */ = {
 			isa = PBXGroup;
 			children = (
-				86A1607E2AAA0D2A0017F3AC /* XIBs */,
+				86A1607E2AAA0D2A0017F3AC /* View */,
 				8628CEE52AA7C993006F9061 /* Controller */,
 				8628CEE32AA7C987006F9061 /* Model */,
 				8628CEE22AA7C979006F9061 /* Repository */,
@@ -127,7 +127,7 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		86A1607E2AAA0D2A0017F3AC /* XIBs */ = {
+		86A1607E2AAA0D2A0017F3AC /* View */ = {
 			isa = PBXGroup;
 			children = (
 				86A160812AAA0D670017F3AC /* ListMovieViewController.xib */,
@@ -137,7 +137,7 @@
 				86A160892AAA0DB80017F3AC /* CustomTableViewCell.xib */,
 				86A1608A2AAA0DB80017F3AC /* CustomTableViewCell.swift */,
 			);
-			path = XIBs;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
