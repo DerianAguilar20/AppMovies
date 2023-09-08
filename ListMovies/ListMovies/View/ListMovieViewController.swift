@@ -45,13 +45,15 @@ class ListMovieViewController: UIViewController {
     }
 }
 
-extension ListMovieViewController: showMoviesUI, UITableViewDataSource, UITableViewDelegate {
+extension ListMovieViewController: showMoviesUI {
     func moviesUpdate(movies: [MovieEntity]) {
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }
     }
-    
+}
+
+extension ListMovieViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         controller.movies.count
     }
@@ -61,7 +63,6 @@ extension ListMovieViewController: showMoviesUI, UITableViewDataSource, UITableV
         self.counter.text = "Movies: \(count)"
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as! CustomTableViewCell
-        
         let model = controller.movies[indexPath.row]
         
         cell.configure(movie: model)
