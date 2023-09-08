@@ -28,19 +28,19 @@
                         <constraint firstAttribute="height" constant="350" id="so3-8x-qIh"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCY-Vm-VCQ">
-                    <rect key="frame" x="12" y="432" width="0.0" height="34"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCY-Vm-VCQ" userLabel="titleMovie">
+                    <rect key="frame" x="12" y="432" width="0.0" height="0.0"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jjm-rr-5dg">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jjm-rr-5dg" userLabel="subTitle">
                     <rect key="frame" x="12" y="483" width="101.33333333333333" height="27.666666666666686"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PkQ-ig-4jO">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PkQ-ig-4jO" userLabel="overview">
                     <rect key="frame" x="12" y="528" width="369" height="0.0"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
@@ -55,7 +55,6 @@
                 <constraint firstItem="HCY-Vm-VCQ" firstAttribute="top" secondItem="SoZ-ay-21V" secondAttribute="bottom" constant="18" id="G8i-ZW-3hK"/>
                 <constraint firstItem="Jjm-rr-5dg" firstAttribute="leading" secondItem="HCY-Vm-VCQ" secondAttribute="leading" id="Qjt-5F-XZ2"/>
                 <constraint firstItem="PkQ-ig-4jO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="UIV-h0-C8v"/>
-                <constraint firstAttribute="bottom" secondItem="HCY-Vm-VCQ" secondAttribute="bottom" constant="386" id="Uqh-Ji-QEN"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SoZ-ay-21V" secondAttribute="trailing" constant="5" id="X8a-rb-fc9"/>
                 <constraint firstItem="Jjm-rr-5dg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="XZV-kb-nso"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PkQ-ig-4jO" secondAttribute="trailing" constant="12" id="gPn-cC-WdV"/>

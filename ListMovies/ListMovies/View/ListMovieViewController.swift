@@ -20,7 +20,7 @@ class ListMovieViewController: UIViewController {
         super.viewDidLoad()
         
         activityIndicator.isHidden = true
-
+        
         tableView.register(CustomTableViewCell.nib(), forCellReuseIdentifier: "CustomCell")
         tableView.dataSource = self
         tableView.delegate = self
